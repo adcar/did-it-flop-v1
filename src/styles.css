@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+:root {
+	--main: #2c3e50;
+	--secondary: #34495e;
+}
+
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+body {
+	background-color: var(--main);
+}
+
+h1,
+h2,
+h3 a {
+	color: white;
+	font-weight: 300;
+}
+h1 {
+	font-family: Pacifico;
+	font-size: 3em;
+}
+h2 {
+	padding: 1em 1em;
+}
+h3 a {
+	font-weight: 300;
+}
+.mainForm input {
+	transition: all 0.25s ease-out;
+	font-size: 1.5em;
+	padding: 1em 0.5em;
+	text-align: center;
+	max-width: 80vw;
+	background-color: var(--secondary);
+	border: none;
+	color: white;
+	outline: none;
+	border-radius: 30px;
+}
+.mainForm input:focus {
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.mainForm input::placeholder {
+	color: white;
+}
